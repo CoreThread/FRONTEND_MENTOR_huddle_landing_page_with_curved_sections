@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Poppins:wght@700&display=swap');
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+}
+
+:root {
+        /*Primary*/
+        --Pink: hsl(322, 100%, 66%);
+        --Light_Pink: hsl(321, 100%, 78%);
+        --Light_Red: hsl(0, 100%, 63%);
+        /*Neutral*/
+        --Very_Dark_Cyan: hsl(192, 100%, 9%);
+        --Very_Pale_Blue: hsl(207, 100%, 98%);
+        /* Fonts*/
+        --sans: 'Open Sans', sans-serif;
+        --pop: 'Poppins', sans-serif;
+}
+
+.box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.navBar {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        margin-bottom: 50px;
+}
+
+.navBar img {
+        width: 5rem;
+        height: 1rem;
+}
+
+.navBar button {
+        color: var(--Pink);
+        border: 2px solid var(--Pink);
+        border-radius: 2rem;
+        width: 80px;
+        height: 22px;
+        cursor: pointer;
+}
+
+.navBar button:hover {
+        color: var(--Light_Pink);
+        border: 2px solid var(--Light_Pink);
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+.build {
+        padding: 35px;
+        text-align: center;
+        margin-bottom: 50px;
+}
+
+.build h1 {
+        font-family: var(--pop);
+        font-weight: 700;
+        color: var(--Very_Dark_Cyan);
+        margin-bottom: 30px;
+}
+
+.build p {
+        font-family: var(--sans);
+        font-weight: 400;
+        color: rgb(135, 132, 132);
+        margin-bottom: 30px;
+}
+
+.build button {
+        background-color: var(--Pink);
+        color: var(--Very_Pale_Blue);
+        height: 40px;
+        width: 185px;
+        border-radius: 2rem;
+        font-family: var(--sans);
+        font-weight: 600;
+        cursor: pointer;
+}
+
+.build button:hover {
+        background-color: var(--Light_Pink);
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+.deviceImg img {
+        width: 21rem;
+        margin-bottom: 70px;
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+.numbers {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+}
+
+.xxx {
+        margin-bottom: 75px;
+}
+
+.xxx img {
+        width: 1.7rem;
+        /* justify-content: flex-start; */
+}
+
+.xxx h1 {
+        font-family: var(--sans);
+        font-weight: 700;
+        color: var(--Very_Dark_Cyan);
+        font-size: 3.5rem;
+        text-align: center;
+}
+
+.xxx p {
+        font-family: var(--sans);
+        font-weight: 400;
+        font-size: 0.85rem;
+        color: rgb(175, 174, 174);
+        text-align: center;
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+
+.three {
+        margin-bottom: 240px;
+}
+
+.zzz {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 120px;
+}
+
+.zzz img {
+        width: 75%;
+}
+
+.other {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 75%;
+}
+
+.other h1 {
+        font-family: var(--sans);
+        font-weight: 700;
+        color: var(--Very_Dark_Cyan);
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+}
+
+.other p {
+        font-family: var(--sans);
+        font-weight: 400;
+        font-size: 0.85rem;
+        color: var(--Very_Dark_Cyan);
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+.ready {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20%;
+        text-align: center;
+        margin-bottom: 120px;
+}
+
+.ready h1 {
+        font-family: var(--sans);
+        font-weight: 700;
+        color: var(--Very_Dark_Cyan);
+        font-size: 1.4rem;
+        margin-bottom: 35px;
+}
+
+.ready button {
+        background-color: var(--Pink);
+        color: var(--Very_Pale_Blue);
+        height: 40px;
+        width: 185px;
+        border-radius: 2rem;
+        font-family: var(--sans);
+        font-weight: 600;
+        cursor: pointer;
+}
+
+.ready button:hover {
+        background-color: var(--Light_Pink);
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+.foot {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10%;
+        text-align: left;
+        background: #00252e;
+        color: var(--Very_Pale_Blue);
+        /* background: url(../images/bg-footer-top-mobile.svg);
+        background-size: cover; */
+}
+
+.foot h1 {
+        font-family: var(--sans);
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 20px;
+}
+
+.foot p {
+        font-family: var(--sans);
+        font-weight: 400;
+        color: rgb(175, 174, 174);
+        font-size: 0.85rem;
+        margin-bottom: 20px;
+}
+
+.foot input {
+        background-color: var(--Very_Pale_Blue);
+        height: 35px;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        cursor: pointer;
+}
+
+.foot button {
+        background-color: var(--Pink);
+        color: var(--Very_Pale_Blue);
+        height: 35px;
+        width: 50%;
+        border-radius: 5px;
+        font-family: var(--sans);
+        font-weight: 600;
+        margin-left: 50%;
+        margin-bottom: 100px;
+        cursor: pointer;
+}
+
+.foot button:hover {
+        background-color: var(--Light_Pink);
+}
+
+#logogo {
+        filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(32deg) brightness(321%) contrast(100%);
+        width: 10rem;
+        margin-bottom: 20px;
+}
+
+#pppp {
+        margin-bottom: 20px;
+}
+
+.links {
+        display: flex;
+        flex-direction: row;
+        width: 190px;
+        justify-content: space-between;
+        margin-bottom: 20px;
+}
+
+.links img {
+        height: 15px;
+}
+
+.social {
+        display: flex;
+        flex-direction: row;
+        width: 90px;
+        justify-content: space-between;
+}
+
+#qpqp {
+        margin-right: 10px;
+}
+
+.fa-brands:hover {
+        color: rgb(88, 199, 242);
+}
+
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+/* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+@media (min-width : 1025px) {
+        .navBar {
+                margin-top: 100px;
+        }
+
+        .navBar img {
+                width: 10rem;
+                height: 2rem;
+        }
+
+        .navBar button {
+                width: 150px;
+                height: 40px;
+        }
+
+        /* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+        .build h1 {
+                font-size: 3rem;
+                margin-bottom: 30px;
+        }
+
+        .build p {
+                font-size: 1.5rem;
+                margin: 25%;
+                margin-top: 0;
+                margin-bottom: 30px;
+        }
+
+        .build button {
+                height: 70px;
+                width: 360px;
+                font-size: 1.25rem;
+        }
+
+        /* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+        .deviceImg img {
+                width: 70rem;
+                margin-bottom: 70px;
+        }
+
+        /* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+        .numbers {
+                flex-direction: row;
+                width: 70%;
+                justify-content: space-between;
+        }
+
+        .xxx img {
+                width: 2.75rem;
+        }
+
+        .xxx h1 {
+                font-size: 6rem;
+        }
+
+        .xxx p {
+                font-size: 1.5rem;
+        }
+
+        /* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+        .zzz {
+                flex-direction: row;
+        }
+
+        .one {
+                flex-direction: row-reverse;
+        }
+
+        .three {
+                flex-direction: row-reverse;
+        }
+
+        .zzz img {
+                width: 50%;
+                padding: 100px;
+        }
+
+        .other {
+                text-align: left;
+                width: 50%;
+                padding: 100px;
+        }
+
+        .other h1 {
+                margin-right: auto;
+                font-size: 2.5rem;
+                margin-bottom: 20px;
+        }
+
+        .other p {
+                font-size: 1.0rem;
+        }
+
+        /* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+        .ready {
+                padding: 8%;
+        }
+
+        .ready h1 {
+                font-size: 2.6rem;
+                margin-bottom: 35px;
+        }
+
+        .ready button {
+                height: 70px;
+                width: 360px;
+                font-size: 1.25rem;
+        }
+
+        .ready button:hover {
+                background-color: var(--Light_Pink);
+        }
+
+        /* XXXXXXXXXXXXX********XXXXXXXXXXXXX */
+        .foot {
+                width: auto;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                /* background: url(../images/bg-footer-top-mobile.svg);
+                background-size: cover; */
+        }
+
+        .foot h1 {
+                font-weight: 600;
+                font-size: 1.5rem;
+        }
+
+        .foot p {
+                width: 40%;
+                font-size: 1rem;
+        }
+
+        .vvvv {
+                display: flex;
+                flex-direction: row;
+        }
+
+        .lorem {
+                margin-left: 20%;
+        }
+
+        .foot input {
+                width: 15rem;
+        }
+
+        .foot button {
+                height: 35px;
+                width: 16%;
+                margin-left: 4.5%;
+        }
+
+        #logogo {
+                width: 13rem;
+        }
+
+        .mkmk {
+                width: 250px;
+        }
+
+        .links {
+                width: 100px;
+        }
+
+        .social {
+                display: flex;
+                flex-direction: row;
+                width: 90px;
+                justify-content: space-between;
+        }
+}
